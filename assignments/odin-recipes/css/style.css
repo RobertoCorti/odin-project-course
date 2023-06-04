@@ -1,0 +1,43 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+}
+
+.recipes-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+.recipes-list li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.recipes-list li a:hover {
+    background-color: #111111;
+}
+
+.recipe {
+    background-color: #F8F8F9;
+    color: black;
+    padding: 30px;
+}
+
+.recipe-description{
+    max-width: 1000px;
+}
+.recipe-photo{
+    border-radius: 4px;
+    max-width: 40%;
+    height: auto;
+}
+
+.recipe-steps{
+    max-width: 1000px;
+}
